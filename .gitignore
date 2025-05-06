@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.env
+
+# Django
+*.log
+staticfiles/
+media/
+
+# Virtual environments
+venv/
+env/
+
+# Docker
+*.pid
+*.db
+*.sock
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+.env
+.env.*
+*.DS_Store
+
+# VSCode
+.vscode/
+
+# Pytest
+.cache/
+
+# Migrations (optional: remove this if you want to keep them tracked)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
